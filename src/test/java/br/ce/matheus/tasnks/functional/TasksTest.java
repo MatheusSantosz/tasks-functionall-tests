@@ -36,7 +36,7 @@ public class TasksTest {
 		//escrever descricao
 		driver.findElement(By.id("task")).sendKeys("teste via selenium");
 		//escrever a data
-		driver.findElement(By.id("dueDate")).sendKeys("14/03/2022");
+		driver.findElement(By.id("dueDate")).sendKeys("14/03/2024");
 		//clicar em salvar
 		driver.findElement(By.id("saveButton")).click();
 		//validar mensagem de sucesso
